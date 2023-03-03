@@ -1,3 +1,5 @@
+/* The factorial of a number is the product of all the numbers from 1 to that number */
+
 function factorial(numberI) {
   var number = numberI;
 

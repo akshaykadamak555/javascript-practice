@@ -1,3 +1,10 @@
+/* In Pass by value, function is called by directly passing the value of the variable as the argument.
+changing the argument inside the function doesn't affect the variable passed from outside the function */
+
+/* In Pass by reference, function is called by directly passing the reference / address of 
+the variable passed from outside the function in javascript objects and arrays follows pass by reference */
+
+
 function callByValue(varOne, varTwo) {
     console.log('Inside call by value method');
     varOne = 100;

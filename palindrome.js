@@ -1,3 +1,5 @@
+/* A Number that remains same even if it's digits are reserved, is called a palindromic */
+
 function palindrome(num) {
     var rem, temp, final = 0;
     var number = num;

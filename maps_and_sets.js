@@ -1,3 +1,6 @@
+/* Map is a collection of keyed data items, 
+just like an Object. But the main difference is that Map allows keys of any type. */
+
 const map1 = new Map();
 map1.set('a', 1);
 map1.set('b', 2);
@@ -9,6 +12,7 @@ console.log(map1.size);
 map1.delete('b');
 console.log(map1.size);
 
+/* A Set is a special type collection – “set of values” (without keys), where each value may occur only once. */
 
 const mySet1 = new Set();
 mySet1.add(1);
